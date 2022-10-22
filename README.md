@@ -1,7 +1,7 @@
 This image contains an avahi daemon instance set up for reflecting mDNS queries.  This is useful in situations where you want to want to use devices across VLANs which are discovered using mDNS (e.g. Chromecast).
 
 To set this up, you first need to create sub-interfaces for your network adapter(s).  One adapter is all that is needed.
-Here's a corresponding netplan config (located at /etc/netplan/<filename>.yaml):
+Here's a corresponding netplan config (located at /etc/netplan/\<filename\>.yaml):
 
 ```
 network:
