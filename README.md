@@ -30,7 +30,7 @@ version: "3.9"
 services:
   avahi:
     image: avahi:latest
-    build: .
+    build: <path_to_this_repo>
     ports:
       - "5353:5353"
     networks:
